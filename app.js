@@ -40,7 +40,7 @@
 		httpRequest.send();
 	}
 	var KtoC = function (k){
-		return 1.8 * (k - 273) + 32;
+		return k - 273.15;
 	}
 	var clear = function () {
 		var latView = document.getElementById("lat");
