@@ -3,6 +3,7 @@
 		input.value = "";
 		var latView = document.getElementById("lat");
 		var lngView = document.getElementById("lng");
+		var temp    = document.getElementById("temp");
 		var options = {
 			types: ['(regions)']
 		};
