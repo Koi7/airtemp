@@ -6,3 +6,99 @@ input{
 	border: 1px solid blue;
 	width: 100%;
 }
+#data{
+	opacity: 0.0;
+	color: gray;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+}
+#thermometer{
+	margin: 20px;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	opacity: 0.0;
+	color: gray;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+}
+#tempValue, #lat, #lng{
+	color: black;
+}
+#degrees, #glass{
+	height: 100%;
+	display: inline-block;
+}
+#ruth{
+	position: absolute;
+	background-color: red;
+	height: 1px;
+	bottom: 21px;
+	-moz-transition: height 1s 1s;
+	-o-transition: height 1s 1s;
+	-webkit-transition: height 1s 1s;
+	-ms-transition: height 1s 1s;
+}
+#tempValue{
+	text-align: center;
+}
+#degrees, #glass{
+	position: relative;
+	width: 50px;
+}
+#degrees-pos, #degrees-neg{
+	width: 100%;
+	height: 50%;
+	position: relative;
+}
+#ruth{
+	width: 10px;
+}
+.degree{
+	right: 0;
+	position: absolute;
+	display: block;
+}
+#d120{
+	bottom: 180px;
+}
+#d100{
+	bottom: 150px;
+}
+#d80{
+	bottom: 120px;
+}
+#d60{
+	bottom: 90px;
+}
+#d40{
+	bottom: 60px;
+}
+#d20{
+	bottom: 30px;
+}
+#d0{
+	bottom: 0;
+}
+#d20-neg{
+	top: 10px;
+}
+#d40-neg{
+	top: 40px;
+}
+#d60-neg{
+	top: 70px;
+}
+#d80-neg{
+	top: 100px;
+}
+#d100-neg{
+	top: 130px;
+}
+#d120-neg{
+	top: 160px;
+}

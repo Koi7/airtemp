@@ -9,15 +9,42 @@
 </head>
 <body>
 	<div id="container">
-		<input id="city" type="text" size="100" required placeholder="enter city name">
-		широта: 
-		<span id="lat"></span>
-		<br/>
-		долгота:
-		<span id="lng"></span>
-		<br>
-		температура:
-		<span id="temp"></span>
+		<input id="city" type="text" size="100" placeholder="enter city name">
+		<div id="data">
+			широта: 
+			<span id="lat"></span>
+			<br/>
+			долгота:
+			<span id="lng"></span>
+			<div id="tempValue">
+				температура:<span id="temp"></span>
+			</div>
+		</div>
+		
+		<div id="thermometer">
+			<div id="degrees">
+				<div id="degrees-pos">
+					<span class="degree" id="d120">120_</span>
+					<span class="degree" id="d100">100_</span>
+					<span class="degree" id="d80">80_</span>
+					<span class="degree" id="d60">60_</span>
+					<span class="degree" id="d40">40_</span>
+					<span class="degree" id="d20">20_</span>
+					<span class="degree" id="d0">0_</span>
+				</div>
+				<div id="degrees-neg">
+					<span class="degree" id="d20-neg">-20_</span>
+					<span class="degree" id="d40-neg">-40_</span>
+					<span class="degree" id="d60-neg">-60_</span>
+					<span class="degree" id="d80-neg">-80_</span>
+					<span class="degree" id="d100-neg">-100_</span>
+					<span class="degree" id="d120-neg">-120_</span>
+				</div>
+			</div>
+			<div id="glass">
+				<div id="ruth"></div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
