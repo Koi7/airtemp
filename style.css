@@ -1,7 +1,8 @@
 #container{
-	margin: 15px;
-	width: 40%;
+	margin: 1.17% auto;
+	width: 31.25%;
 }
 input{
 	border: 1px solid blue;
+	width: 100%;
 }
