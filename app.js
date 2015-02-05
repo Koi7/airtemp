@@ -11,8 +11,7 @@
 		var autocomplete = new google.maps.places.Autocomplete(input, options);
 
 		google.maps.event.addListener(autocomplete, 'place_changed', function() {
-		    var place = autocomplete.getPlace(); //получаем место
-		    console.log(place);
+		    var place = autocomplete.getPlace();
 			latView.innerHTML = place.geometry.location.lat().toFixed(4) + ";";
 			lngView.innerHTML = place.geometry.location.lng().toFixed(4) + ";";
 			showData();
