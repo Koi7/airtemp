@@ -35,7 +35,7 @@
 			showThermometer();
 			moveRuth(tempValue);
 		}
-		httpRequest.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=" + city, true);
+		httpRequest.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&key=e90787af0ff0d1dc42c06019e0d6e3fb", true);
 		httpRequest.send();
 	}
 	var KtoC = function (k){
